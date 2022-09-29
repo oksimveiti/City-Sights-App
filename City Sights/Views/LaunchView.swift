@@ -9,11 +9,21 @@ import SwiftUI
 
 struct LaunchView: View {
     var body: some View {
+        
+        // Detect the authorization status of geolocating the user
+        
+        // if undetermined, show onboarding
+        
+        // if approved, show homeview
+        
+        // if denied, show deniedview
+        
+        
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("Hello, world Heloooooo!")
         }
         .padding()
     }
